@@ -1,0 +1,115 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Outfit, sans-serif;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: hsl(217, 54%, 11%);
+	padding: 20px;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: hsl(216, 50%, 16%);
+	padding: 20px;
+	border-radius: 15px;
+	row-gap: 20px;
+	max-width: 375px;
+	min-width: 320px;
+}
+/*CARD CONTENT BODY*/
+.card-content-body {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+.card-content-body > h1:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+/*PARAGRAPH*/
+.card,
+.card a {
+	color: hsl(0, 0%, 100%);
+}
+.card-content-body > p {
+	font-size: 1.125em;
+	color: hsl(215, 51%, 70%);
+}
+.nft-price {
+	color: hsl(178, 100%, 50%);
+}
+.time-left {
+	color: hsl(215, 51%, 70%);
+}
+/*CARD HEADER*/
+.card-header {
+	width: 100%;
+	position: relative;
+}
+.card-header > img {
+	width: 100%;
+	border-radius: 15px;
+	display: block;
+}
+.overlay {
+	top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	background-color: hsl(178, 100%, 50%);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card-header:hover .overlay {
+	opacity: 0.5;
+}
+span {
+	color: hsl(215, 51%, 70%);
+}
+/*PRICE TIME SECTION*/
+.price-time-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.price-time-divider {
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+}
+/*HORIZONTAL RULE*/
+hr {
+	border: thin solid hsl(215, 32%, 27%);
+}
+/*FOOTER*/
+.card-footer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	column-gap: 15px;
+}
+.card-footer > img {
+	width: 32px;
+	height: 32px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.card-footer a {
+	text-decoration: none;
+}
+.card-footer a:hover {
+	color: hsl(178, 100%, 50%);
+}
