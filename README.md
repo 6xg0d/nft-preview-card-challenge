@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-challenge-solution-HM7QT4Xoi_)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site](https://6xg0d.github.io/nft-preview-card-challenge/)
 
 ## My process
 
